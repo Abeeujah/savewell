@@ -1,0 +1,27 @@
+.port-link:hover, .port-link:focus {
+  background: var(--color-white) !important;
+  color: var(--color-primary) !important;
+}
+
+.no-fit{
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.no-fit:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 992px) {
+  .rotate-header {
+    transform: rotate(-90deg);
+  }
+
+  .centroid {
+    display: grid;
+    place-items: center;
+  }
+}

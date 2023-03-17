@@ -1,0 +1,9 @@
+.pages-hero-container {
+  min-height: 70vh;
+}
+
+@media (min-width: 1440px) {
+  .pages-hero-container {
+    min-height: 50vh;
+  }
+}

@@ -1,0 +1,9 @@
+.main-text {
+  color: var(--color-main);
+}
+
+@media (min-width: 768px) {
+  .negative-order {
+    order: -1;
+  }
+}

@@ -1,0 +1,20 @@
+.project-component-container {
+  cursor: pointer;
+}
+
+.img-wrapper{
+    overflow: hidden;
+    z-index: 50;
+}
+
+.proj-img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+
+.proj-img:hover {
+    transform: scale(1.1);
+}

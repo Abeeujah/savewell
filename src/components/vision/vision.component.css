@@ -1,0 +1,28 @@
+.vision-mobile-img, .vision-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.vision-image{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    min-height: 10rem;
+}
+
+@media (min-width: 768px) {
+    .vision-mobile-container{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .vision-container{
+        display: none;
+    }
+}

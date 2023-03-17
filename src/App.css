@@ -1,0 +1,31 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+/* Color Variables */
+
+:root {
+  --color-main: #fe0000;
+  --color-primary: #000;
+  --color-primary-fade: rgba(0, 0, 0, 0.7);
+  --color-secondary: #8f9090;
+  --color-white: #fff;
+  --color-white-fade: rgba(255, 255, 255, 0.7);
+  --color-extra: #B01F1D;
+}
+
+/* Background Classes */
+.main-background{
+  background: var(--color-main);
+}
+
+.white-background{
+  background: var(--color-white);
+}
+
+.black-background{
+  background: var(--color-primary);
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}

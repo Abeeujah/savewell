@@ -1,0 +1,25 @@
+.dark-nav{
+    background: var(--color-primary) !important;
+}
+
+.nav-white{
+    color: var(--color-white) !important;
+}
+
+.nav-cta{
+    color: var(--color-white) !important;
+}
+
+.nav-cta:hover{
+    color: var(--color-primary) !important;
+    background: var(--color-white) !important;
+    border: 2px solid var(--color-primary) !important;
+}
+
+.nav-mid{
+    color: var(--color-white) !important;
+}
+
+.nav-mid:hover{
+    border-bottom: 2px solid var(--color-white);
+}

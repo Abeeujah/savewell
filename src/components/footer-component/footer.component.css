@@ -1,0 +1,17 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container-column{
+    flex-direction: column;
+}
+
+.footer-link{
+    transition: all .5s ease;
+}
+
+.footer-link:hover{
+    color: var(--color-main) !important;
+}
