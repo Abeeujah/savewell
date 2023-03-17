@@ -21,16 +21,25 @@ const Portfolio = () => {
                 </h2>
                 <Link
                   className="btn btn-lg main-background text-white port-link color-red"
+                  aria-label="Projects"
                   to={"/projects"}
                 >
                   <FontAwesomeIcon icon={faCircleArrowRight} />
                 </Link>
               </div>
               <div className="col-xs-12 col-md-6 col-lg-5 mb-3 rounded-4 img-wrapper">
-                <img className="rounded-4 no-fit" src={Image} alt="Project One" />
+                <img
+                  className="rounded-4 no-fit"
+                  src={Image}
+                  alt="Project One"
+                />
               </div>
               <div className="col-xs-12 col-md-6 col-lg-5 mb-3 rounded-4 img-wrapper">
-                <img className="rounded-4 no-fit" src={ImageM} alt="Project Two" />
+                <img
+                  className="rounded-4 no-fit"
+                  src={ImageM}
+                  alt="Project Two"
+                />
               </div>
             </div>
           </div>

@@ -23,13 +23,25 @@ const FooterNavigation = () => {
                 </Nav.Link>
               </div>
               <div className="footer-container">
-                <Nav.Link as={Link} to={"/projects"} className="p-1 text-white footer-link">
+                <Nav.Link
+                  as={Link}
+                  to={"/projects"}
+                  className="p-1 text-white footer-link"
+                >
                   Projects
                 </Nav.Link>
-                <Nav.Link as={Link} to={"/about"} className="p-1 text-white footer-link">
+                <Nav.Link
+                  as={Link}
+                  to={"/about"}
+                  className="p-1 text-white footer-link"
+                >
                   About
                 </Nav.Link>
-                <Nav.Link as={Link} to={"/contact"} className="p-1 text-white footer-link">
+                <Nav.Link
+                  as={Link}
+                  to={"/contact"}
+                  className="p-1 text-white footer-link"
+                >
                   Contact
                 </Nav.Link>
               </div>
@@ -37,6 +49,7 @@ const FooterNavigation = () => {
                 <a
                   href="mailto:savewell@gmail.com"
                   className="p-1 text-white footer-link"
+                  aria-label="Mail"
                 >
                   <FontAwesomeIcon size="2x" icon={faEnvelope} />
                 </a>
@@ -45,10 +58,15 @@ const FooterNavigation = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="p-1 text-white footer-link"
+                  aria-label="Location"
                 >
                   <FontAwesomeIcon size="2x" icon={faLocationDot} />
                 </a>
-                <a href="tel:+2349078989425" className="p-1 text-white footer-link">
+                <a
+                  href="tel:+2349078989425"
+                  className="p-1 text-white footer-link"
+                  aria-label="Contact"
+                >
                   <FontAwesomeIcon size="2x" icon={faPhoneAlt} />
                 </a>
               </div>

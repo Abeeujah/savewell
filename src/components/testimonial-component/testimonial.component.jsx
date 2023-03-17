@@ -57,6 +57,7 @@ const Testimonial = () => {
               <button
                 onClick={decrementCount}
                 className="btn btn-lg main-background m-1 text-white port-link color-red"
+                aria-label="Previous"
               >
                 <FontAwesomeIcon icon={faArrowLeft} />
               </button>
@@ -86,6 +87,7 @@ const Testimonial = () => {
               <button
                 onClick={incrementCount}
                 className="btn btn-lg main-background m-1 text-white port-link color-red"
+                aria-label="Next"
               >
                 <FontAwesomeIcon icon={faArrowRight} />
               </button>
