@@ -27,13 +27,12 @@ const NavigationBar = () => {
         className="black-background"
       >
         <Container>
-          <Navbar.Brand
-            as={Link}
+          <Link
             to={"/"}
             className="nav-white navbar-brand"
           >
             SaveWell
-          </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${expand}`}
@@ -48,30 +47,27 @@ const NavigationBar = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-center flex-grow-1 pe-3">
-                <Nav.Link
-                  as={Link}
+                <Link
                   to={"/projects"}
-                  className="nav-white"
+                  className="nav-white nav-link footer-link"
                   onClick={closeOffCanvas}
                 >
                   Projects
-                </Nav.Link>
-                <Nav.Link
-                  as={Link}
+                </Link>
+                <Link
                   to={"/about"}
-                  className="nav-white"
+                  className="nav-white nav-link footer-link"
                   onClick={closeOffCanvas}
                 >
                   About
-                </Nav.Link>
-                <Nav.Link
-                  as={Link}
+                </Link>
+                <Link
                   to={"/contact"}
-                  className="nav-white"
+                  className="nav-white nav-link footer-link"
                   onClick={closeOffCanvas}
                 >
                   Contact
-                </Nav.Link>
+                </Link>
               </Nav>
               <ul className="navbar-nav">
                 <li className="nav-item">
